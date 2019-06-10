@@ -3,6 +3,10 @@
   background-image: url("h_img.jpg");
   background-repeat: no-repeat;
 }
-.services{
-  background-image: url("/home/jeffrey/Documents/moringa-prep/IP3/assets/backgrounds/s_image.jpg")
+.Services{
+  background-image: url("s_image.jpg");
+}
+.jumbotron{
+    background-image: url("c_image.jpg");
+    height: 400px;
 }
