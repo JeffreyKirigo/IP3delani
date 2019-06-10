@@ -1,12 +1,14 @@
 @import url('bootstrap.css');
-.welcome {
+#sec-1 {
+  color: white;
   background-image: url("h_img.jpg");
   background-repeat: no-repeat;
 }
-.Services{
+
+#sec-3 {
   background-image: url("s_image.jpg");
 }
-.jumbotron{
-    background-image: url("c_image.jpg");
-    height: 400px;
+
+#sec-5 {
+  background-image: url("c_image.jpg");
 }
