@@ -25,6 +25,9 @@
   text-align: center;
   background-image: url("/home/jeffrey/Documents/moringa-prep/IP3/backgrounds/c_image.jpg");
 }
+#sec-7{
+  padding: 30px;
+}
 
 .expand {
   padding-top: 10%;
@@ -39,7 +42,7 @@ textarea{
 }
 .name{
   width: 30%;
-  opacity: 0.5;;
+  opacity: 0.5;
 }
 .email{
   width: 60%;
