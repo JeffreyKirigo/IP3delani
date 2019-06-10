@@ -1,6 +1,8 @@
 #sec-1 {
   color: white;
   background-image: url("/home/jeffrey/Documents/moringa-prep/IP3/backgrounds/h_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
  }
 
 #sec-2 {
@@ -51,13 +53,20 @@ input .form-control{
   width: 30%;
   background: none;
   color: #fff;
-  padding-right: 20px;
+  padding: 20px;
 }
 .email{
   width: 50%;
   background: none;
   color: #fff;
-  padding-left: 20px;
+  padding: 25px;
 }.input{
   display: inline-flex;
+}
+#sec-4 p{
+  display: none;
+}
+.footer{
+  background-color: aquamarine;
+  border-radius: 12px;
 }

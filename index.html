@@ -8,10 +8,13 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link rel="page icon" href="../IP3/assets/download.png">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
   <title>DELANI STUDIO</title>
 </head>
 
-<body>
+<body class="container">
 
 
   <section id="sec-1">
@@ -139,16 +142,35 @@
     </div>
     <div class="row">
       <div class="col">
-        <img class="col-ms-4" src="../IP3/assets/services_icons/design_icon.png" alt="Design">
-        <h6>Design</h6>
+        <img class="col-ms-4 fix" src="../IP3/assets/services_icons/design_icon.png" alt="Design">
+        <div class="show-hide">
+          <h6><strong>Design</strong></h6>
+          <p id="des">Our design practice offers a full range of services including brand strategy, interaction and
+            visual
+            design and user experience testing.
+            Throughout your project, our designers create and implement visual design and workflows, solicit user
+            feedback
+            and work with you to make sure what gets built is what is needed.</p>
+        </div>
       </div>
       <div class="col">
-        <img class="col-ms-4" src="../IP3/assets/services_icons/dev_icon.png" alt="Development">
-        <h6>Development</h6>
+        <img class="col-ms-4 cont" src="../IP3/assets/services_icons/dev_icon.png" alt="Development">
+        <div>
+          <h6><strong>Development</strong></h6>
+          <p id="dev">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+            They collaborate with your team to write, and improve code on a daily basis, using proven practices such as
+            test-driven development and pair programming.</p>
+        </div>
       </div>
       <div class="col">
-        <img class="col-ms-4" src="../IP3/assets/services_icons/product_icon.png" alt="Product">
-        <h6>Product</h6>
+        <img class="col-ms-4 pro" src="../IP3/assets/services_icons/product_icon.png" alt="Product">
+        <div>
+          <h6><strong>Product</strong></h6>
+          <p id="prod">Planning and development is iterative. Because we are constantly coding and testing, the products
+            we build are always ready to go live.
+            This iterative process allows for changes as business requirements evolve.
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -162,18 +184,43 @@
         </strong>
       </div>
     </div>
-    <div class="row">
-      <img src="../IP3/assets/portfolio/work1.jpg" alt="" class="col-md-3">
-      <img src="../IP3/assets/portfolio/work2.jpg" alt="" class="col-md-3">
-      <img src="../IP3/assets/portfolio/work3.jpg" alt="" class="col-md-3">
-      <img src="../IP3/assets/portfolio/work4.jpg" alt="" class="col-md-3">
-    </div>
-    <br>
-    <div class="row">
-      <img src="../IP3/assets/portfolio/work5.jpg" alt="" class="col-md-3">
-      <img src="../IP3/assets/portfolio/work6.jpg" alt="" class="col-md-3">
-      <img src="../IP3/assets/portfolio/work7.jpg" alt="" class="col-md-3">
-      <img src="../IP3/assets/portfolio/work8.jpg" alt="" class="col-md-3">
+    <div class="drop">
+      <div class="row">
+        <div>
+          <img src="../IP3/assets/portfolio/work1.jpg" alt="" class="col-3">
+          <div class="behinddrop"></div>
+        </div>
+        <div>
+          <img src="../IP3/assets/portfolio/work2.jpg" alt="" class="col-3">
+          <div class="behinddrop"></div>
+        </div>
+        <div>
+          <img src="../IP3/assets/portfolio/work3.jpg" alt="" class="col-3">
+          <div class="behinddrop"></div>
+        </div>
+        <div>
+          <img src="../IP3/assets/portfolio/work4.jpg" alt="" class="col-3">
+          <div class="behinddrop"></div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div>
+          <img src="../IP3/assets/portfolio/work5.jpg" alt="" class="col-3">
+          <div class="behinddrop"></div>
+        </div>
+        <div> <img src="../IP3/assets/portfolio/work6.jpg" alt="" class="col-3">
+          <div class="behinddrop"></div>
+        </div>
+        <div>
+          <img src="../IP3/assets/portfolio/work7.jpg" alt="" class="col-3">
+          <div class="behinddrop"></div>
+        </div>
+        <div>
+          <img src="../IP3/assets/portfolio/work8.jpg" alt="" class="col-3">
+          <div class="behinddrop"></div>
+        </div>
+      </div>
     </div>
   </section>
   <br>
@@ -185,9 +232,9 @@
       </strong>
       <form action="index.html" class="form-group">
         <div class="input">
-            <input class="form-control name" type="name" placeholder="Name" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input class="form-control email " type="email" placeholder="email@.com" >
-          </div>
+          <input class="form-control name" type="name" placeholder="Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input class="form-control email " type="email" placeholder="email@.com">
+        </div>
         <div class="row">
           <div id="textarea" class="col">
             <textarea cols="110" rows="8" required placeholder="Your message here..."></textarea>
@@ -205,16 +252,25 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <center><a href=""><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/behance.png" alt=""></a>
-            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/dribble.png" alt=""></a>
-            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/facebook.png" alt=""></a>
-            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/flickr.png" alt=""></a>
-            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/g_plus.png" alt=""></a>
-            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/pinterest.png" alt=""></a>
+          <center><a href=""><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/behance.png"
+                alt=""></a>
+            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/dribble.png"
+              alt=""></a>
+            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/facebook.png"
+              alt=""></a>
+            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/flickr.png"
+              alt=""></a>
+            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/g_plus.png"
+              alt=""></a>
+            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/pinterest.png"
+              alt=""></a>
             <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/skype.png" alt=""></a>
-            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/stumble_upon.png" alt=""></a>
-            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/twitter.png" alt=""></a>
-            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/you_tube.png" alt=""></a></center>
+            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/stumble_upon.png"
+              alt=""></a>
+            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/twitter.png"
+              alt=""></a>
+            <a href=""></a><img src="/home/jeffrey/Documents/moringa-prep/IP3/assets/social_icons/you_tube.png"
+              alt=""></a></center>
 
         </div>
 
@@ -226,7 +282,7 @@
     <div class="footer">
       <p>Delani studio <br>
         2019</p>
-      
+
     </div>
   </center>
 
