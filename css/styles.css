@@ -37,14 +37,27 @@
   padding-top: 5%;
   padding-bottom: 5%;
 }
+::placeholder{
+  color: #fff;
+}
 textarea{
- opacity: 0.5;
+ background: none;
+ color: #fff;
+}
+input .form-control{
+  background: none;
 }
 .name{
   width: 30%;
-  opacity: 0.5;
+  background: none;
+  color: #fff;
+  padding-right: 20px;
 }
 .email{
-  width: 60%;
-  opacity: 0.5;
+  width: 50%;
+  background: none;
+  color: #fff;
+  padding-left: 20px;
+}.input{
+  display: inline-flex;
 }
