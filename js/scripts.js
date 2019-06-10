@@ -29,15 +29,15 @@ $(document).ready(function () {
     $("#prod").toggle();
     $("#prod").hide();
   });
-  $(".drop").hover(function () {
-      $(this).css({
-        "opticity":"1",
-        "transformation":"1s",
-      });
-         
-    }, function () {
-    $(this).css({"opticity":"0"
-    });  // out
-    }
-  );
+
+});
+
+
+$(document).ready(function () {
+$(".wk2").mouseenter(function () { 
+  $(".p2").show();  
+});
+$(".wk2").mouseleave(function () { 
+  $(".p2").hide();  
+});
 });
