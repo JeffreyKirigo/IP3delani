@@ -71,6 +71,7 @@ input .form-control{
   border-radius: 12px;
 }
 .text-block{
+  text-align: center;
   display: none;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -80,4 +81,4 @@ input .form-control{
   width: 50%;
   border: 2px solid white;
   color: white;
-}
+  }
