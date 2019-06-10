@@ -29,4 +29,15 @@ $(document).ready(function () {
     $("#prod").toggle();
     $("#prod").hide();
   });
+  $(".drop").hover(function () {
+      $(this).css({
+        "opticity":"1",
+        "transformation":"1s",
+      });
+         
+    }, function () {
+    $(this).css({"opticity":"0"
+    });  // out
+    }
+  );
 });

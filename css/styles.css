@@ -70,3 +70,25 @@ input .form-control{
   background-color: aquamarine;
   border-radius: 12px;
 }
+.drop{
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 5%;
+  right: 0;
+  height: 100;
+  width: 90%;
+  opacity: 0;
+  transition: .5s;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.behinddrop-text{
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  text-transform: capitalize;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
