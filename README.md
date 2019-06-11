@@ -1,7 +1,7 @@
 # Project name.
 ### Delani Studio IP3
 ##  Project description.
-This project is mainly a javascript browerser program that can identify a if an object is a triangle or not being given the dimensions as inputs. To be more precise it show which type of triangle it is.
+This is a redesign of the **delani studio website**
 ### Author(s) information.
 The Author is a developer student at **Moringa School**
 Has skills in creating a basic simple website.
